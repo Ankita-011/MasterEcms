@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="test(failed)">
+    <classes>
+      <class name="org.test.TestCases.TestCaseForMasterTeamDownload">
+        <methods>
+          <include name="init"/>
+          <include name="browserClose"/>
+          <include name="tearDownReport"/>
+          <include name="compareExcelTest"/>
+        </methods>
+      </class> <!-- org.test.TestCases.TestCaseForMasterTeamDownload -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
