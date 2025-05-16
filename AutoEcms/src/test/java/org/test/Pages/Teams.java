@@ -1,14 +1,11 @@
 package org.test.Pages;
 
 
-import java.time.Duration;
 import java.util.Properties;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.test.Utilities.CaptureScreenshots;
 import org.test.Utilities.LogsCapture;
 import org.test.Utilities.WaitUtils;
@@ -108,7 +105,7 @@ public class Teams
 		 
 		    public String EditTeamMember() {
 		    	WaitUtils.waitForElementToBeClickable(driver, By.xpath(pr.getProperty("EditTeamMember")),10).click();
-		    	WaitUtils.waitForElementToBeClickable.elementToBeClickable(driver, By.xpath("FName")),10).sendKeys("Test");
+		    	WaitUtils.waitForElementToBeClickable(driver, By.xpath("FName"),10).sendKeys("Test");
 		    	WaitUtils.waitForElementToBeClickable(driver, By.xpath(pr.getProperty("EditSubmit")),10).click();
 		    	WaitUtils.waitForElementToBeClickable(driver, By.xpath(pr.getProperty("EditUpdated")),10);
 		        String screenshotEditMember = CaptureScreenshots.captureScreenshot(driver, "TestCase3.1");

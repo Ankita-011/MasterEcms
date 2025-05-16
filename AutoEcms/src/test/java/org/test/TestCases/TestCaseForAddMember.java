@@ -30,7 +30,9 @@ public class TestCaseForAddMember extends Base {
 			String screenshotPath = parts[1];
 
 			test.info("Invite Message: " + responseMsg);
-			test.pass("Screenshot of invite step:").addScreenCaptureFromPath(screenshotPath);
+			test.pass("Screenshot of invite step:")
+		    .addScreenCaptureFromPath(screenshotPath.replace("\\", "/"));
+			System.out.println("Screenshot saved at: " + screenshotPath);
 
 		} catch (Exception e) {
 			System.out.println("Something went wrong");
