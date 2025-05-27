@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.test.TestCases.TestCaseForCardAndSearches">
+      <class name="org.test.TestCases.TestCaseForMisTrxnSearch">
         <methods>
           <include name="init"/>
-          <include name="CardInTeams"/>
+          <include name="TestCaseForMisTrxnSearch"/>
           <include name="browserClose"/>
           <include name="tearDownReport"/>
         </methods>
-      </class> <!-- org.test.TestCases.TestCaseForCardAndSearches -->
+      </class> <!-- org.test.TestCases.TestCaseForMisTrxnSearch -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

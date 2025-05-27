@@ -7,6 +7,7 @@
       <class name="org.test.TestCases.TestCaseForAddMember"/>
       <class name="org.test.TestCases.TestCaseForCardAndSearches"/>
       <class name="org.test.TestCases.TestCaseForMasterTeamDownload"/>
+      <class name="org.test.TestCases.TestCaseForMisTrxnSearch"/>
     </classes>
   </test>
 

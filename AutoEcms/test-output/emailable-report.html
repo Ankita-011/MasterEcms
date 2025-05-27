@@ -8,11 +8,29 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">55,573</td><td></td><td></td></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">170,096</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">org.test.TestCases.TestCaseForAddMember</td><td><a href="#m0">testCaseForAddMember</a></td><td rowspan="1">1747212408847</td><td rowspan="1">15963</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">org.test.TestCases.TestCaseForCardAndSearches</td><td><a href="#m0">CardInTeams</a></td><td rowspan="1">1748352687597</td><td rowspan="1">24523</td></tr><tr class="failedodd"><td rowspan="1">org.test.TestCases.TestCaseForMasterTeamDownload</td><td><a href="#m1">compareExcelTest</a></td><td rowspan="1">1748352739429</td><td rowspan="1">14482</td></tr><tr><th colspan="4">test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">org.test.TestCases.TestCaseForAddMember</td><td><a href="#m2">testCaseForAddMember</a></td><td rowspan="1">1748352650279</td><td rowspan="1">14945</td></tr><tr class="passedodd"><td rowspan="1">org.test.TestCases.TestCaseForMisTrxnSearch</td><td><a href="#m3">TestCaseForMisTrxnSearch</a></td><td rowspan="1">1748352781433</td><td rowspan="1">6564</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">org.test.TestCases.TestCaseForAddMember#testCaseForAddMember</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>test</h2><h3 id="m0">org.test.TestCases.TestCaseForCardAndSearches#CardInTeams</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: FName (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.5&apos;, java.version: &apos;24&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: /var/folders/vw/p0y1pq5s1fv...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59777}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59777/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4a5a975d26d7956f1c2921d000d790e0
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at org.test.Utilities.WaitUtils.waitForElementToBeClickable(WaitUtils.java:15)
+	at org.test.Pages.Teams.EditTeamMember(Teams.java:108)
+	at org.test.TestCases.TestCaseForCardAndSearches.CardInTeams(TestCaseForCardAndSearches.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">org.test.TestCases.TestCaseForMasterTeamDownload#compareExcelTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 
+	at org.test.TestCases.TestCaseForMasterTeamDownload.compareExcelTest(TestCaseForMasterTeamDownload.java:34)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">org.test.TestCases.TestCaseForAddMember#testCaseForAddMember</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">org.test.TestCases.TestCaseForMisTrxnSearch#TestCaseForMisTrxnSearch</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

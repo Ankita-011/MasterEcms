@@ -7,8 +7,8 @@
         <methods>
           <include name="init"/>
           <include name="CardInTeams"/>
-          <include name="browserClose"/>
           <include name="tearDownReport"/>
+          <include name="browserClose"/>
         </methods>
       </class> <!-- org.test.TestCases.TestCaseForCardAndSearches -->
       <class name="org.test.TestCases.TestCaseForMasterTeamDownload">

@@ -24,4 +24,5 @@ public class WaitUtils {
 	        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeoutSeconds));
 	        return wait.until(ExpectedConditions.invisibilityOfElementLocated(locator));
 	    }
+
 	}
