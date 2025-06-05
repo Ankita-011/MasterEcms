@@ -11,7 +11,6 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.test.Utilities.CsvReader;
 import org.test.Utilities.WaitUtils;
 import org.test.Utilities.ZipFiles;
 import org.testng.Assert;
