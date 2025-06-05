@@ -1,6 +1,9 @@
 package org.test.TestCases;
 
 import org.testng.annotations.Test;
+import org.testng.Assert;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
 import java.io.File;
 import java.io.IOException;
@@ -34,7 +37,7 @@ public class TestCaseForMasterTeamDownload extends Base {
 		    AssertJUnit.assertTrue(result);
 		    report.info("Actual result is " +result);
 		} else {
-		    AssertJUnit.fail("No downloaded file found!");
+		    Assert.fail("No downloaded file found!");
 		}
 	}
 

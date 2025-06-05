@@ -1,24 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="test(failed)">
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Default suite]">
+  <test parallel="none" name="Default test(failed)" preserve-order="true">
     <classes>
-      <class name="org.test.TestCases.TestCaseForCardAndSearches">
+      <class name="org.test.TestCases.TestCaseForTransactionAll">
         <methods>
           <include name="init"/>
-          <include name="CardInTeams"/>
-          <include name="tearDownReport"/>
-          <include name="browserClose"/>
-        </methods>
-      </class> <!-- org.test.TestCases.TestCaseForCardAndSearches -->
-      <class name="org.test.TestCases.TestCaseForMasterTeamDownload">
-        <methods>
-          <include name="init"/>
+          <include name="TestCaseForTransactionAllReport"/>
           <include name="browserClose"/>
           <include name="tearDownReport"/>
-          <include name="compareExcelTest"/>
         </methods>
-      </class> <!-- org.test.TestCases.TestCaseForMasterTeamDownload -->
+      </class> <!-- org.test.TestCases.TestCaseForTransactionAll -->
     </classes>
-  </test> <!-- test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

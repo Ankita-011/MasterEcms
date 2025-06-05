@@ -1,6 +1,7 @@
 package org.test.TestCases;
 
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 import com.aventstack.extentreports.ExtentTest;
 
 import org.test.Base.Base;

@@ -1,157 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="2" failed="2" skipped="0">
+<testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-27T19:00:18 IST" name="Suite" finished-at="2025-05-27T19:03:08 IST" duration-ms="170096">
+  <suite started-at="2025-06-05T10:44:04Z" name="Default suite" finished-at="2025-06-05T10:44:49Z" duration-ms="45452">
     <groups>
     </groups>
-    <test started-at="2025-05-27T19:00:18 IST" name="test" finished-at="2025-05-27T19:03:08 IST" duration-ms="170096">
-      <class name="org.test.TestCases.TestCaseForMasterTeamDownload">
-        <test-method is-config="true" signature="init()[pri:0, instance:org.test.TestCases.TestCaseForMasterTeamDownload@2f67a4d3]" started-at="2025-05-27T19:01:52 IST" name="init" finished-at="2025-05-27T19:02:19 IST" duration-ms="27182" status="PASS">
+    <test started-at="2025-06-05T10:44:04Z" name="Default test" finished-at="2025-06-05T10:44:49Z" duration-ms="45452">
+      <class name="org.test.TestCases.TestCaseForTransactionAll">
+        <test-method is-config="true" signature="init()[pri:0, instance:org.test.TestCases.TestCaseForTransactionAll@6f63b475]" started-at="2025-06-05T16:14:04Z" name="init" finished-at="2025-06-05T16:14:30Z" duration-ms="26787" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="compareExcelTest()[pri:0, instance:org.test.TestCases.TestCaseForMasterTeamDownload@2f67a4d3]" started-at="2025-05-27T19:02:19 IST" name="compareExcelTest" finished-at="2025-05-27T19:02:33 IST" duration-ms="14482" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: 
-at org.testng.AssertJUnit.fail(AssertJUnit.java:65)
-at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:23)
-at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:33)
-at org.test.TestCases.TestCaseForMasterTeamDownload.compareExcelTest(TestCaseForMasterTeamDownload.java:34)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="TestCaseForTransactionAllReport()[pri:0, instance:org.test.TestCases.TestCaseForTransactionAll@6f63b475]" started-at="2025-06-05T16:14:30Z" name="TestCaseForTransactionAllReport" finished-at="2025-06-05T16:14:49Z" duration-ms="18546" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- compareExcelTest -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:org.test.TestCases.TestCaseForMasterTeamDownload@2f67a4d3]" started-at="2025-05-27T19:02:33 IST" name="browserClose" finished-at="2025-05-27T19:02:34 IST" duration-ms="115" status="PASS">
+        </test-method> <!-- TestCaseForTransactionAllReport -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:org.test.TestCases.TestCaseForTransactionAll@6f63b475]" started-at="2025-06-05T16:14:49Z" name="browserClose" finished-at="2025-06-05T16:14:49Z" duration-ms="104" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-      </class> <!-- org.test.TestCases.TestCaseForMasterTeamDownload -->
-      <class name="org.test.TestCases.TestCaseForAddMember">
-        <test-method is-config="true" signature="init()[pri:0, instance:org.test.TestCases.TestCaseForAddMember@3b35a229]" started-at="2025-05-27T19:00:18 IST" name="init" finished-at="2025-05-27T19:00:50 IST" duration-ms="32244" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method signature="testCaseForAddMember()[pri:0, instance:org.test.TestCases.TestCaseForAddMember@3b35a229]" started-at="2025-05-27T19:00:50 IST" name="testCaseForAddMember" finished-at="2025-05-27T19:01:05 IST" duration-ms="14945" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCaseForAddMember -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:org.test.TestCases.TestCaseForAddMember@3b35a229]" started-at="2025-05-27T19:01:05 IST" name="browserClose" finished-at="2025-05-27T19:01:05 IST" duration-ms="108" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:org.test.TestCases.TestCaseForAddMember@3b35a229]" started-at="2025-05-27T19:03:08 IST" name="tearDownReport" finished-at="2025-05-27T19:03:08 IST" duration-ms="114" status="PASS">
+        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:org.test.TestCases.TestCaseForTransactionAll@6f63b475]" started-at="2025-06-05T16:14:49Z" name="tearDownReport" finished-at="2025-06-05T16:14:49Z" duration-ms="121" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownReport -->
-      </class> <!-- org.test.TestCases.TestCaseForAddMember -->
-      <class name="org.test.TestCases.TestCaseForCardAndSearches">
-        <test-method is-config="true" signature="init()[pri:0, instance:org.test.TestCases.TestCaseForCardAndSearches@7dc3712]" started-at="2025-05-27T19:01:05 IST" name="init" finished-at="2025-05-27T19:01:27 IST" duration-ms="22255" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method signature="CardInTeams()[pri:0, instance:org.test.TestCases.TestCaseForCardAndSearches@7dc3712]" started-at="2025-05-27T19:01:27 IST" name="CardInTeams" finished-at="2025-05-27T19:01:52 IST" duration-ms="24523" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: FName (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.5', java.version: '24'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: /var/folders/vw/p0y1pq5s1fv...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59777}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59777/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4a5a975d26d7956f1c2921d000d790e0]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: FName (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.5', java.version: '24'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: /var/folders/vw/p0y1pq5s1fv...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59777}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59777/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4a5a975d26d7956f1c2921d000d790e0
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
-at org.test.Utilities.WaitUtils.waitForElementToBeClickable(WaitUtils.java:15)
-at org.test.Pages.Teams.EditTeamMember(Teams.java:108)
-at org.test.TestCases.TestCaseForCardAndSearches.CardInTeams(TestCaseForCardAndSearches.java:32)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CardInTeams -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:org.test.TestCases.TestCaseForCardAndSearches@7dc3712]" started-at="2025-05-27T19:01:52 IST" name="browserClose" finished-at="2025-05-27T19:01:52 IST" duration-ms="115" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserClose -->
-      </class> <!-- org.test.TestCases.TestCaseForCardAndSearches -->
-      <class name="org.test.TestCases.TestCaseForMisTrxnSearch">
-        <test-method is-config="true" signature="init()[pri:0, instance:org.test.TestCases.TestCaseForMisTrxnSearch@5e3f861]" started-at="2025-05-27T19:02:34 IST" name="init" finished-at="2025-05-27T19:03:01 IST" duration-ms="27401" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method signature="TestCaseForMisTrxnSearch()[pri:0, instance:org.test.TestCases.TestCaseForMisTrxnSearch@5e3f861]" started-at="2025-05-27T19:03:01 IST" name="TestCaseForMisTrxnSearch" finished-at="2025-05-27T19:03:07 IST" duration-ms="6564" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCaseForMisTrxnSearch -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:org.test.TestCases.TestCaseForMisTrxnSearch@5e3f861]" started-at="2025-05-27T19:03:07 IST" name="browserClose" finished-at="2025-05-27T19:03:08 IST" duration-ms="106" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserClose -->
-      </class> <!-- org.test.TestCases.TestCaseForMisTrxnSearch -->
-    </test> <!-- test -->
-  </suite> <!-- Suite -->
+      </class> <!-- org.test.TestCases.TestCaseForTransactionAll -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

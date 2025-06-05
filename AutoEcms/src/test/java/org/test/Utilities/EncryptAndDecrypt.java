@@ -37,8 +37,8 @@ public class EncryptAndDecrypt {
 	}
  
 	public static void main(String[] args) throws Exception {
-		//System.out.println(EncryptAndDecrypt.decrypt("i4WuBZRHxfBRGsLxUnRVpQ=="));
-		System.out.println(EncryptAndDecrypt.encrypt("AJOPA1649J"));
+		System.out.println(EncryptAndDecrypt.decrypt("AFIxJuOjtk8ah0L5stBSBQ=="));
+		//System.out.println(EncryptAndDecrypt.encrypt("AJOPA1649J"));
 	}
 
  

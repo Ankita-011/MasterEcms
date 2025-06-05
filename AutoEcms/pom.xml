@@ -26,6 +26,25 @@
       <scope>test</scope>
     </dependency>
     
+ 
+   <dependency>
+        <groupId>org.apache.poi</groupId>
+        <artifactId>poi</artifactId>
+        <version>5.2.3</version>
+    	</dependency>
+   <dependency>
+        <groupId>org.apache.poi</groupId>
+        <artifactId>poi-ooxml</artifactId>
+        <version>5.2.3</version>
+   </dependency>
+
+<dependency>
+    <groupId>net.sourceforge.tess4j</groupId>
+    <artifactId>tess4j</artifactId>
+    <version>5.4.0</version> <!-- or latest -->
+</dependency>
+
+    
 <!-- JUnit Params (Optional) -->
     <!-- https://mvnrepository.com/artifact/log4j/log4j -->
 <dependency>

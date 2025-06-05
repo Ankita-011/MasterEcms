@@ -1,5 +1,6 @@
 package org.test.TestCases;
 
+import org.testng.annotations.Test;
 import org.openqa.selenium.By;
 import org.test.Base.Base;
 import org.test.Pages.Teams;
